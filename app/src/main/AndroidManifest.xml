@@ -48,6 +48,9 @@
         </receiver>
 
 
+        <service
+            android:name=".Geofence.GeofenceTransitionService"
+            android:exported="true" />
 
     </application>
 

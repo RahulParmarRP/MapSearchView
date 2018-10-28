@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity
         SearchFragment.OnItemSelectedListener {
 
 
+    private static final String NOTIFICATION_MSG = "NOTIFICATION MSG";
+
     JSONParser jp = new JSONParser();
     JSONObject jo;
     ProgressDialog pd;

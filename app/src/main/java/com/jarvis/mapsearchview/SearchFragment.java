@@ -174,7 +174,7 @@ public class SearchFragment extends ListFragment implements SearchView.OnQueryTe
 
 
         String item = (String) listView.getAdapter().getItem(position);
-        item = item.toLowerCase();
+        //item = item.toLowerCase();
         Toast.makeText(mContext, item, Toast.LENGTH_SHORT).show();
         searchItem.collapseActionView();
         //it is CallBack object
@@ -215,6 +215,7 @@ public class SearchFragment extends ListFragment implements SearchView.OnQueryTe
         mAllValues = new ArrayList<>();
 
         mAllValues.add("Mobile");
+        mAllValues.add("Aquarium & Fish");
         mAllValues.add("Smart Phones");
         mAllValues.add("Fashion And Clothes");
         mAllValues.add("Cinemas");

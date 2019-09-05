@@ -3,3 +3,5 @@ Geofencing, Location Updates, Map and Search View using fragments and server sid
 This small app which include location updates and geofencing with notification updates.
 The Database is given in a folder notifymeGeofence which is to be placed in htdocs of xampp folder.
 And notify_me.sql is included which we have to import through phpmyadmin.
+
+PHP api used in the application can be found in https://github.com/RahulParmarRP/MapSearchView/tree/master/notifymeGeofence
